@@ -1,0 +1,83 @@
+.site_navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  background-color: #101010;
+}
+
+.site_navigation a li {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 40px;
+  color: white;
+}
+
+.site_navigation a:hover {
+  background-color: gray;
+  color: #101010;
+}
+
+
+.header-navigation {
+  float: right;
+  height: 100%;
+}
+
+
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(0, 34, 7);
+}
+
+
+body {
+  background: url('https://cdn.pixabay.com/photo/2021/08/27/12/18/forest-6578551_640.jpg') top center no-repeat;
+  /* фото дёрнул из инета */
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 20px;
+}
+
+.header {
+  background-color: black;
+  height: 80px;
+}
+
+.logo-container {
+  float: left;
+  height: 100%;
+  padding: 0px 20px;
+  background-color: rgb(172, 114, 114);
+  color: white;
+  font-family: cursive;
+}
+
+.my-foto {
+  width: 180px;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+
+
+h2 {
+  text-align: center;
+  color: rgb(0, 34, 7);
+  background-color: rgb(191, 240, 255);
+  height: 50px;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  background-color: rgb(0, 27, 36);
+  padding: 30px;
+}
+
+.table_of_contents {
+  color: rgb(206, 93, 0);
+}
